@@ -1,16 +1,24 @@
-# React + Vite
+# 🛠️ 수예산업 (Suyea Industry) - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Atlas Copco 공식 대리점 수예산업**의 공식 웹사이트 프론트엔드 저장소입니다.  
+Vite + React 환경으로 구성되었으며, Headless CMS인 Sanity와 연동되어 실시간 데이터(회사 소개, 제품 정보)를 동적으로 렌더링합니다.
 
-Currently, two official plugins are available:
+- **라이브 주소:** [https://suyea.vercel.app](https://suyea.vercel.app)
+- **관리자 시스템:** [https://3z8xucvt.sanity.studio](https://3z8xucvt.sanity.studio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React (Vite)
+- **Styling:** Tailwind CSS (또는 CSS/SCSS 등 실제 사용한 기술 기재)
+- **Data Fetching:** `@sanity/client`, `@sanity/image-url`
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 설치 및 실행 방법
+
+### 1. 의존성 패키지 설치
+```bash
+npm install
