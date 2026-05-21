@@ -3,10 +3,10 @@ import { createClient } from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
 export const client = createClient({
-    projectId: 'oMgpBpxS2',
+    projectId: '3z8xucvt',
     dataset: 'production',
-    useCdn: true,           // 데이터 불러오는 속도 최적화용
-    apiVersion: '2026-05-21', // 오늘 날짜
+    useCdn: true,
+    apiVersion: '2026-05-03',
 });
 
 // 💡 Sanity에서 올린 이미지 주소를 리액트가 읽을 수 있는 깨끗한 URL로 바꿔주는 치트키 함수
